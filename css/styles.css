@@ -1,0 +1,98 @@
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 100%;
+    width: 960px;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.author {
+    margin-top: 20px;
+}
+
+
+.author__img img {
+    height: 96px;
+    border-radius: 100%;
+}
+
+.author__info h1 {
+    font-size: 20px;
+}
+
+
+.author__info p {
+    margin-top: 0;
+}
+
+.author__social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.author__social a img {
+    height: 34px;
+}
+
+.courses {
+    margin-bottom: 30px;
+}
+
+.website__title {
+    font-size: 18px;
+}
+
+.website_cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.website__card {
+    background-color: #2665d6;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    padding: 5px;
+}
+
+.website__card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-img img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-content {
+    width: 100%;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.card-empty {
+    width: 50px;
+}
