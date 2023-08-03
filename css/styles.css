@@ -12,15 +12,20 @@ body {
     height: auto;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
 }
 
 .author {
-    margin-top: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
 }
 
 .author__img img {
-    height: 96px;
-    border-radius: 100%;
+    height: 140px;
 }
 
 .author__info h1 {
@@ -30,6 +35,8 @@ body {
 
 .author__info p {
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .author__social {
@@ -40,10 +47,6 @@ body {
 
 .author__social a img {
     height: 34px;
-}
-
-.website {
-    margin-bottom: 25px;
 }
 
 .website__title {
@@ -59,7 +62,8 @@ body {
 }
 
 .website__card {
-    background-color: #2665d6;
+    background-color: #000000;
+    /* background-color: #2665d6; */
     display: flex;
     align-items: center;
     color: inherit;
